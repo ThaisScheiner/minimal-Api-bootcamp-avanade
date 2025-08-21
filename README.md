@@ -39,6 +39,7 @@ O próximo passo é a configuração do banco de dados. É necessário criar um 
 "ConnectionStrings": {
   "MySql": "Server=localhost;Port=3306;Database=minimal_api;Uid=seu_usuario;Pwd=sua_senha;"
 }
+````
 
 Com a conexão devidamente configurada, as tabelas do banco de dados podem ser criadas através das migrations do Entity Framework. Execute o comando abaixo no terminal, na pasta Api, para aplicar a estrutura da base de dados.
 
